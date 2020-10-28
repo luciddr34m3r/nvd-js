@@ -1,0 +1,41 @@
+{
+  "name": "nvd",
+  "version": "0.0.1",
+  "description": "A JavaScript library for dealing with NVD, CVEs, and CPE strings.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luciddr34m3r/nvd-js.git"
+  },
+  "keywords": [
+    "CVE",
+    "CPE",
+    "NVD",
+    "exploit",
+    "exploits",
+    "vulnerability",
+    "vulnerabilities",
+    "MITRE"
+  ],
+  "author": "Curt Barnard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luciddr34m3r/nvd-js/issues"
+  },
+  "homepage": "https://github.com/luciddr34m3r/nvd-js#readme",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "node-gzip": "^1.1.2",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "ajv": "^6.12.6",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "jest": "^26.6.1",
+    "mocha": "^8.2.0"
+  }
+}
