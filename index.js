@@ -51,7 +51,6 @@ const getNvdListMetadata = async (category) => {
       throw new InvalidCVECategory("The supplied category is invalid.");
     }
 
-    // TODO: Validate before returning.
     const url = `${ BASE_URL }${ category }.meta`;
     let data;
     let metadata = {};

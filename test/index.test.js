@@ -64,6 +64,8 @@ describe('Module tests', () => {
             axios.get.mockImplementation(() => {
                 throw new Error();
             });
+            
+            // TODO: Missing await?
             nvd.getNvdListMetadata(nvd.CVE_CATEGORIES.RECENT).should.be.rejectedWith(nvd.NVDResponseTimeout);
         });
 

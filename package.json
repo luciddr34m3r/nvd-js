@@ -1,5 +1,5 @@
 {
-  "name": "nvd",
+  "name": "@luciddr34m3r/nvd",
   "version": "0.0.1",
   "description": "A JavaScript library for dealing with NVD, CVEs, and CPE strings.",
   "main": "index.js",
@@ -28,14 +28,17 @@
   "homepage": "https://github.com/luciddr34m3r/nvd-js#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "ajv": "^6.12.6",
     "node-gzip": "^1.1.2",
     "save": "^2.4.0"
   },
   "devDependencies": {
-    "ajv": "^6.12.6",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
     "jest": "^26.6.1",
     "mocha": "^8.2.0"
+  },
+  "directories": {
+    "test": "test"
   }
 }
